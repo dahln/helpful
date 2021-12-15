@@ -6,9 +6,7 @@ A note of caution, this changes your commit history - use these command judiciou
 
 (this was in the master branch)
 
-<pre>
-<code>
+```
 git reset --hard [commit-id-going-back-to]
 git push -f
-</code>
-</pre>
+```
