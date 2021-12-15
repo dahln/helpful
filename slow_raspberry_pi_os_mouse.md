@@ -7,22 +7,18 @@ Normally when I setup a Raspberry Pi, I go for the "non-gui" approach. I prefer 
 Here is how I fixed the slow mouse speed
 
  - Open this file:
-<pre>
-<code>
+```
 sudo nano /boot/cmdline.txt
-</code>
-</pre>
+```
 
  - At the end of the single line, add a space and then "usbhid.mousepoll=0"
  - This will set the mouse speed to the speed the device/mouse is requesting
  - Save the file. My reference is Ctrl+O (to write out) and then Ctrl+X (to exit)
  - Reboot:
  
-<pre>
-<code>
+```
 sudo reboot
-</code>
-</pre>
+```
 
 Done. The mouse should be a usable speed.
 
@@ -32,12 +28,10 @@ PS:
 
 If you don't want to use the speed requested by the device, here are a series of other option speeds:
 
-<pre>
-<code>
+```
 usbhid.mousepoll=1 -> 1000Hz
 usbhid.mousepoll=2 -> 500Hz
 usbhid.mousepoll=4 -> 250Hz
 usbhid.mousepoll=8 -> 125Hz
 usbhid.mousepoll=10 -> 100Hz (Default)
-</code>
-</pre>
+```
