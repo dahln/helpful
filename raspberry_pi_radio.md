@@ -10,8 +10,7 @@ I followed the instructions in the repo Readme and I made a few minor adjustment
  - I setup a raspberry pi with a fresh copy of Rasperry Pi OS. Lite version is my preferred)
  - Run the following commands, all from the "pi" user home directory:
 
-<pre>
-<code>
+```
 sudo apt update
 sudo apt upgrade -y
 sudo apt install git
@@ -22,8 +21,7 @@ git clone https://github.com/dahln/PiFmRds.git
 cd PiFmRds/src
 make clean
 make
-</code>
-</pre>
+```
 
 Now that all that is installed, setup, and built - lets start it up:
 
@@ -45,11 +43,9 @@ What does this do? Well lets walk through it:
 One last thing. I found that when the songs ended (I had 4 songs in the music folder), pi_fm_rds would shut down. I wanted the program to loop... over and over and over for the whole month of December. So I wrapped the whole command in the a while loop.... lol.
 
 Here you go:
-<pre>
-<code>
+```
 while true; do sox -t mp3 /home/pi/Music/*.mp3 -t wav - | sudo ./PiFmRds/src/pi_fm_rds -freq 107.3 -ps GRINCH -rt 'GRINCH' -pi GRCH -audio -; done &
-</code>
-</pre>
+```
 
 
 After running the command:
