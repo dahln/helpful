@@ -6,8 +6,7 @@ This method provides a simple way to convert one type to another type, matching 
 
 It serializes the Source data to a JSON object. Because JSON doesn't have a "type", you can then deserialize the JSON to the desired output type. Any properties with matching names and types will convert. 
 
-<pre>
-<code>
+```
 static public class Mapper
 {
     //Take the source data, convert to JSON. Convert the json to the destination class.
@@ -19,5 +18,4 @@ static public class Mapper
         return result;
     }
 }
-</code>
-</pre>
+```
