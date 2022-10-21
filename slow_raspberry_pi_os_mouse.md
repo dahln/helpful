@@ -1,4 +1,4 @@
-# Raspberry Pi - Slow Muse Speed Fix
+# Raspberry Pi - Slow Mouse Speed Fix
 
 I am a huge fan of Raspberry Pi's.  I have a standing request when anybody asks me what I want for a gift.... birthday, Christmas, etc: "Sure...let me think, oh! I need another Raspberry Pi".  I think my wife actually likes it because she knows I always get excited about another one, and they are easy to find, and affordable.
 
