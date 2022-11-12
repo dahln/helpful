@@ -1,9 +1,12 @@
 # Create dotnet certification for HTTPS
 
-Using the CLI to run your .NET application could produce an error if that application attempts to run with HTTPS and now SSL certificate is provided. In your development environment, run this command:
+Using the dotnet CLI to manage dev certifications.
+
+[Documentation from Microsoft](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-dev-certs)
 
 ```
-dotnet dev-certs https
+dotnet dev-certs https --trust
 ```
-
- - Note: I ran this from the root directory of my project.
+```
+dotnet dev-certs https --clean
+```
