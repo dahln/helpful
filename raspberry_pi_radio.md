@@ -2,7 +2,10 @@
 
 I wanted to transmit Christmas/Grinch music with the Christmas decorations in my yard. I had a spare Raspberry Pi and thought I could use it as a transmitter.
 
-Here is how I set it up:
+## 2022 Christmas Update:
+I've unable to get this process to work with my Pi 4. When I go back to the Pi 3 that I used previous years, it worked fine.
+
+## Setup Process:
 
 This repo provided my starting point: https://github.com/ChristopheJacquet/PiFmRds. I forked the repo, it can be found at: https://github.com/dahln/PiFmRds
 
@@ -12,14 +15,32 @@ I followed the instructions in the repo Readme and I made a few minor adjustment
 
 ```
 sudo apt update
+```
+```
 sudo apt upgrade -y
-sudo apt install git
-sudo apt install libsndfile1-dev
-sudo apt install sox oggfwd
-sudo apt install libsox-fmt-mp3
+```
+```
+sudo apt install git -y
+```
+```
+sudo apt install libsndfile1-dev -y
+```
+```
+sudo apt install sox oggfwd -y
+```
+```
+sudo apt install libsox-fmt-mp3 -y
+```
+```
 git clone https://github.com/dahln/PiFmRds.git
+```
+```
 cd PiFmRds/src
+```
+```
 make clean
+```
+```
 make
 ```
 
