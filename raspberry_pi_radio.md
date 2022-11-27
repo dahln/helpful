@@ -9,6 +9,8 @@ I've unable to get this process to work with my Pi 4. When I go back to the Pi 3
 
 This repo provided my starting point: https://github.com/ChristopheJacquet/PiFmRds. I forked the repo, it can be found at: https://github.com/dahln/PiFmRds
 
+An antenna wire should be connected to pin 7
+
 I followed the instructions in the repo Readme and I made a few minor adjustments:
  - I setup a raspberry pi with a fresh copy of Rasperry Pi OS. Lite version is my preferred)
  - Run the following commands, all from the "pi" user home directory:
