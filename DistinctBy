@@ -1,0 +1,12 @@
+Somestimes a "DistinctBy" is helpful. This extension method has worked for me:
+
+public static IEnumerable<T> DistinctBy<T, TKey>(this IEnumerable<T> items, Func<T, TKey> property)
+{
+    return items.GroupBy(property).Select(x => x.First());
+}
+
+
+
+
+Attribution:
+https://code.4noobz.net/c-distinctby
