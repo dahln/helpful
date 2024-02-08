@@ -9,4 +9,9 @@ Default username is:
 SA
 ```
 
+Default password is:
+```
+YourStrong@Passw0rd
+```
+
 Change the password to something strong.
