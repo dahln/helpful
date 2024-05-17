@@ -19,4 +19,4 @@ Default password is:
 YourStrong@Passw0rd
 ```
 
-Change the password to something strong.
+Change the password to something strong. Don't use this password. Choose a good password.
