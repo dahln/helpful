@@ -11,3 +11,7 @@ Get-ExecutionPolicy
 ```
 Set-ExecutionPolicy RemoteSigned
 ```
+OR
+```
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+```
