@@ -6,6 +6,7 @@ winget install --id Git.Git -e --source winget
 ```
 winget install --id GitHub.cli
 ```
+Restart the terminal
 ```
 gh auth login
 ```
@@ -14,4 +15,7 @@ git config --global user.name "John Doe"
 ```
 ```
 git config --global user.email johndoe@example.com
+```
+```
+winget install Microsoft.DotNet.SDK.9
 ```
