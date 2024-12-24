@@ -10,3 +10,5 @@ Get-ExecutionPolicy
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
+
+CAUTION: This will loosen security. Proceed at your own risk.
