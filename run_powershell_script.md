@@ -7,11 +7,6 @@ Run powershell terminal as an administrator
 ```
 Get-ExecutionPolicy
 ```
-
 ```
-Set-ExecutionPolicy RemoteSigned
-```
-OR
-```
-Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
